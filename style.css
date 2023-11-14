@@ -1,0 +1,95 @@
+body{
+    background: rgb(255, 140, 140);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+.cl{
+    background-imag: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url(images/call.webp);
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 22px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    border-radius: 50px;
+    border-width: 0px;
+    border-color: blue;
+    height: 2px;
+}
+ul li a:hover{
+    background-color: aqua;
+    color: blue;
+  
+}
+ul li.active a{
+    background-color: aqua;
+    color: blue;
+}
+.ig{
+    border-radius: 50%;
+    height: min-content;
+    width: 70px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+form{
+    background-color: rgb(47, 173, 182);
+    width: 70vh;
+    height: 80vh;
+    border-radius: 35px;
+    text-align: center;
+    border-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+} 
+img{
+    height: 40vh;
+    width: 50vh;
+    border-radius: 70%;
+}
+button{
+    width: 110px;
+    height: 60px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(9, 230, 238);
+    background-color: black;
+}
+.goo{
+    margin-top: -50vh;
+}
+.contact{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-block: 10vh;
+    padding-block: 10vh;
+}
+.contact img{
+    height: 20px;
+    width: 20px;
+    border-radius: 70%;
+}
